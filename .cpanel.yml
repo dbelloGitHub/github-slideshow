@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/danielbe/public_html/fotografia/tutorial-registrarse-desde-celular/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R _includes $DEPLOYPATH
+    - /bin/cp -R _layouts $DEPLOYPATH
