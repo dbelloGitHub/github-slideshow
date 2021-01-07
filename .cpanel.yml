@@ -4,7 +4,8 @@ deployment:
     - export DEPLOYPATH=/home/danielbe/public_html/fotografia/tutorial-registrarse-desde-celular/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp _config.yml $DEPLOYPATH
+    - /bin/cp -R node_modules/reveal.js $DEPLOYPATH
     - /bin/cp -R _includes $DEPLOYPATH
     - /bin/cp -R _layouts $DEPLOYPATH
     - /bin/cp -R _posts $DEPLOYPATH
-    - /bin/cp -R script $DEPLOYPATH 
+    - /bin/cp -R script $DEPLOYPATH
